@@ -64,7 +64,8 @@ button:active{
 }
 #valor__actual{
   font-size: 3.5em;
+  overflow: hidden;
 }
 #valor__anterior{
-  font-size: 2em;
+  overflow: hidden;
 }

@@ -63,7 +63,7 @@ function App() {
             </div>
             <button style={{color: themeBtn}} onClick={deleteAll} className="col-2">C</button>
             <button style={{color: themeBtn}} onClick={deleteOne} className="numero">&larr;</button>
-            <button style={{color: themeBtn}} onClick={() => updateCalc('%') } className="operador">%</button>
+            <button style={{color: themeBtn}} onClick={() => updateCalc('/') } className="operador">%</button>
             <button style={{color: themeBtn}} onClick={() => updateCalc('7') }className="numero">7</button>
             <button style={{color: themeBtn}} onClick={() => updateCalc('8') } className="numero">8</button>
             <button style={{color: themeBtn}} onClick={() => updateCalc('9') } className="numero">9</button>
