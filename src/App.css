@@ -65,6 +65,13 @@ button:active{
 #valor__actual{
   font-size: 3.5em;
   overflow: hidden;
+  word-break: break-all;
+  height: 200px;
+}
+.result__auto{
+  height: 65px;
+  overflow: hidden;
+  word-break: break-all;
 }
 #valor__anterior{
   overflow: hidden;

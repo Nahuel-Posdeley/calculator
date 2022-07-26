@@ -17,7 +17,7 @@ function App() {
       return;
     }
     if(!ops.includes(value)){
-      setResult(eval(calc + value).toString())
+      setResult(calc + value)
     }
     setCalc(calc + value)
   }
@@ -58,7 +58,7 @@ function App() {
           border: '1px solid #d1d5d7'
         }} className="calculadora">
             <div className="display">
-                {result ? <span style={{color: themeBtn}}>({result})</span> : '' }
+                {result ? <span className='result__auto' style={{color: themeBtn}}>({result})</span> : '' }
                 <div style={{color: themeBtn}} id="valor__actual">{calc || '0'}</div>
             </div>
             <button style={{color: themeBtn}} onClick={deleteAll} className="col-2">C</button>
